@@ -75,12 +75,6 @@ st.markdown("""
         font-weight: 700;
         font-size: 0.9rem;
     }
-    .flow-arrow {
-        text-align: center;
-        color: #64748b;
-        font-weight: bold;
-        font-size: 1.1rem;
-    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -121,6 +115,16 @@ output_df = results["output_df"]
 qa_df = results["qa_df"]
 metrics = results["metrics"]
 gold_reg = results["gold_regression"]
+
+# Prepare downloadable binary buffers
+csv_bytes = output_df.to_csv(index=False, encoding="utf-8").encode("utf-8")
+
+xlsx_buf = io.BytesIO()
+with pd.ExcelWriter(xlsx_buf, engine="openpyxl") as writer:
+    output_df.to_excel(writer, index=False)
+xlsx_bytes = xlsx_buf.getvalue()
+
+qa_csv_bytes = qa_df.to_csv(index=False, encoding="utf-8").encode("utf-8")
 
 # 📌 13-Stage Methodology Flowchart
 with st.expander("🧩 VIEW PIPELINE METHODOLOGY FLOWCHART (13 STAGES)", expanded=False):
@@ -169,12 +173,41 @@ col5.metric("Gold Row Benchmark", "82.14% Match", delta="Un-hardcoded n=2")
 
 st.markdown("---")
 
+# Top Level Direct Downloads Section for Immediate Access
+st.subheader("📥 Direct Deliverable Downloads (252-Column Schema)")
+d_col1, d_col2, d_col3 = st.columns(3)
+
+d_col1.download_button(
+    label="📥 DOWNLOAD DELIVERABLE CSV (252 Columns)",
+    data=csv_bytes,
+    file_name="UniHack_Enriched_Product_Intelligence.csv",
+    mime="text/csv",
+    key="top_dl_csv"
+)
+
+d_col2.download_button(
+    label="📥 DOWNLOAD DELIVERABLE XLSX (252 Columns)",
+    data=xlsx_bytes,
+    file_name="UniHack_Enriched_Product_Intelligence.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    key="top_dl_xlsx"
+)
+
+d_col3.download_button(
+    label="📥 DOWNLOAD QA REPORT CSV",
+    data=qa_csv_bytes,
+    file_name="UniHack_QA_and_Evaluation_Report.csv",
+    mime="text/csv",
+    key="top_dl_qa"
+)
+
+st.markdown("---")
+
 # 📈 Interactive Analytics Dashboard Section
 st.subheader("📈 Product Intelligence & Catalog Quality Analytics")
 c_row1_1, c_row1_2 = st.columns(2)
 
 with c_row1_1:
-    # Department Taxonomy Distribution Chart
     dept_counts = output_df["Dept"].value_counts().reset_index()
     dept_counts.columns = ["Department", "Count"]
     fig_dept = px.bar(
@@ -191,7 +224,6 @@ with c_row1_1:
     st.plotly_chart(fig_dept, use_container_width=True)
 
 with c_row1_2:
-    # Quality & Confidence Distribution Donut Chart
     conf_scores = qa_df["confidence_score"] * 100.0
     high_conf = (conf_scores >= 95).sum()
     med_conf = ((conf_scores >= 80) & (conf_scores < 95)).sum()
@@ -216,7 +248,6 @@ with c_row1_2:
 c_row2_1, c_row2_2 = st.columns(2)
 
 with c_row2_1:
-    # Description Character Limit Compliance Analysis
     inv_lens = output_df["INVOICE_DESC"].astype(str).str.len()
     mob_lens = output_df["MOBILE_DESC"].astype(str).str.len()
     short_lens = output_df["SHORT_DESC"].astype(str).str.len()
@@ -240,14 +271,12 @@ with c_row2_1:
     st.plotly_chart(fig_desc, use_container_width=True)
 
 with c_row2_2:
-    # Brand Resolution Transformation Funnel
-    placeholder_count = 799  # -- Unbranded -- in input
     resolved_manuf_count = (output_df["MANUFACTURER_NAME"].astype(str).str.strip() != "").sum()
     resolved_brand_count = (output_df["BRAND_NAME"].astype(str).str.strip() != "").sum()
     
     funnel_df = pd.DataFrame({
         "Stage": ["Raw Input (Sparse/Placeholder)", "Resolved OEM Manufacturer", "Canonical Brand (with ®/™)"],
-        "Count": [1000, resolved_manuf_count, resolved_brand_count]
+        "Count": [len(output_df), resolved_manuf_count, resolved_brand_count]
     })
     
     fig_funnel = px.funnel(
@@ -274,7 +303,6 @@ tab1, tab2, tab3 = st.tabs([
 with tab1:
     st.markdown(f"**Shape:** `{output_df.shape[0]}` items × `{output_df.shape[1]}` columns")
     
-    # Filtering controls
     filter_col1, filter_col2 = st.columns(2)
     selected_dept = filter_col1.selectbox("Filter by Department", options=["All"] + sorted(output_df["Dept"].unique().tolist()))
     search_query = filter_col2.text_input("Search by MPN, Manufacturer, or Description")
@@ -292,26 +320,20 @@ with tab1:
 
     st.dataframe(filtered_df, height=420, use_container_width=True)
     
-    c_csv, c_xlsx = st.columns(2)
-    
-    csv_buf = io.BytesIO()
-    output_df.to_csv(csv_buf, index=False, encoding="utf-8")
-    c_csv.download_button(
+    c1, c2 = st.columns(2)
+    c1.download_button(
         label="📥 Download Deliverable CSV (252 Columns)",
-        data=csv_buf.getvalue(),
+        data=csv_bytes,
         file_name="UniHack_Enriched_Product_Intelligence.csv",
         mime="text/csv",
-        use_container_width=True
+        key="tab_dl_csv"
     )
-    
-    xlsx_buf = io.BytesIO()
-    output_df.to_excel(xlsx_buf, index=False, engine="openpyxl")
-    c_xlsx.download_button(
+    c2.download_button(
         label="📥 Download Deliverable XLSX (252 Columns)",
-        data=xlsx_buf.getvalue(),
+        data=xlsx_bytes,
         file_name="UniHack_Enriched_Product_Intelligence.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        use_container_width=True
+        key="tab_dl_xlsx"
     )
 
 with tab2:
@@ -324,14 +346,12 @@ with tab2:
         
     st.dataframe(filtered_qa, height=360, use_container_width=True)
     
-    qa_csv_buf = io.BytesIO()
-    qa_df.to_csv(qa_csv_buf, index=False, encoding="utf-8")
     st.download_button(
         label="📥 Download QA Report CSV",
-        data=qa_csv_buf.getvalue(),
+        data=qa_csv_bytes,
         file_name="UniHack_QA_and_Evaluation_Report.csv",
         mime="text/csv",
-        use_container_width=True
+        key="tab_dl_qa"
     )
 
 with tab3:
