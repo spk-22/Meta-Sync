@@ -1,112 +1,94 @@
-# UniHack: AI-Powered Product Intelligence Pipeline
+# Meta Sync — AI-Powered Product Intelligence Pipeline
 
-A complete, end-to-end AI product-intelligence enrichment pipeline for industrial commerce datasets, developed for the **UniHack: AI-Powered Product Intelligence for Industrial Commerce** hackathon challenge.
-
----
-
-## 📌 Problem & Solution Summary
-
-Industrial supply chain datasets are frequently sparse, messy, and abbreviated. Manufacturer names are combined with internal vendor codes (`"Freud Inc (2435)"`), brand fields contain placeholder strings (`"-- Unbranded --"`), and product descriptions lack standardized attributes and structure.
-
-This pipeline automates the transformation of 6 sparse input columns into a **252-column schema deliverable** complying with exact commercial catalog standards.
-
-### Key Architecture Highlights
-- **Exact 252-Column Header Contract:** Strictly enforces the verbatim ordering of 252 headers defined in `config.py` with hard assertion checks at export time.
-- **13-Stage Processing Engine:** Clean modular pipeline architecture covering placeholder filtering, de-duplication, manufacturer/brand resolution, keyword taxonomy classification, enrichment retrieval, attribute extraction, normalization, description generation, digital asset mapping, schema assembly, validation, evaluation, and export.
-- **Dual Run Modes (Online & Offline):** Supports live manufacturer-domain web retrieval in `--mode online` and graceful offline fallback in `--mode offline`.
-- **Idempotency & Caching:** Built-in SQLite caching mechanism for retrieval and stage calls.
-- **Gold-Row Regression Testing:** Evaluates field-by-field accuracy against the ground truth rows in `Unihack_ Expected Output - Delivery Format.csv` (n=2).
+An end-to-end AI product-intelligence enrichment pipeline for industrial commerce datasets, developed for the **UniHack: AI-Powered Product Intelligence for Industrial Commerce** hackathon challenge.
 
 ---
 
-## 🛠️ Installation & Setup
+## 📌 Problem & Solution Overview
 
-### Prerequisites
-- Python 3.11+
-- Installed packages: `pandas`, `openpyxl`, `rapidfuzz`, `streamlit`, `httpx`, `trafilatura`
+Industrial supply chain product catalogs are frequently sparse, messy, and abbreviated. Manufacturer names are combined with internal vendor codes (`"Freud Inc (2435)"`), brand fields contain placeholder strings (`"-- Unbranded --"`), and product descriptions lack standardized attributes and structure.
 
-```bash
-pip install pandas openpyxl rapidfuzz streamlit httpx trafilatura
+**Meta Sync** automates the transformation of sparse 6-column input datasets into a **literal 252-column schema deliverable** complying with exact commercial catalog standards.
+
+---
+
+## ✨ Key Features & Architecture Highlights
+
+- **Literal 252-Column Header Contract:** Enforces verbatim ordering of all 252 delivery headers with hard assertion gates at export time.
+- **13-Stage Processing Engine:** Ingest ➔ Placeholder Clean ➔ De-duplication ➔ OEM Resolution ➔ Taxonomy Classification ➔ Retrieval ➔ Attribute Extraction ➔ UOM Normalization ➔ 5x Description Engine ➔ Digital Assets ➔ 252 Assembly ➔ Validation ➔ Evaluation ➔ Export.
+- **Visual Analytics Dashboard:** Built-in Streamlit dashboard featuring an interactive 13-stage methodology flowchart, Plotly analytics charts, 252-column data preview, and 1-click CSV/XLSX downloads.
+- **Dual Run Modes:** Default `--mode offline` (100% self-contained local processing) and optional `--mode online` (domain-filtered search retrieval).
+- **Quality Assurance Sidecar:** Generates a separate QA report (`UniHack_QA_and_Evaluation_Report.csv`) tracking confidence scores and `needs_human_review` flags without polluting the deliverable schema.
+- **Un-hardcoded Evaluation Harness:** Evaluates field-by-field accuracy against ground truth gold rows (n=2).
+
+---
+
+## 📂 Repository Structure
+
+```
+Meta-Sync/
+├── config.py                 # Literal 252 header constant, taxonomy rules, UOM maps
+├── app.py                    # Streamlit visual analytics dashboard & flowchart
+├── run.py                    # CLI entry point (--mode offline|online, --sample N)
+├── requirements.txt          # Python dependencies
+├── IMPLEMENTATION.md         # Detailed 13-stage technical implementation breakdown
+├── RESULTS.md                # Full evaluation & benchmark metrics report
+├── src/                      # Modular 13-stage pipeline package
+│   ├── ingest.py             # Stage 0: Ingest & profile
+│   ├── cleaning.py           # Stage 1: Placeholder clean & passthrough preservation
+│   ├── dedup.py              # Stage 2: RapidFuzz de-duplication & alternate MPNs
+│   ├── resolution.py         # Stage 3: OEM manufacturer & brand resolution
+│   ├── taxonomy.py           # Stage 4: Category keyword taxonomy rules
+│   ├── retrieval.py          # Stage 5: Enrichment retrieval (online & offline)
+│   ├── extraction.py         # Stage 6: Grounded attribute & feature extraction
+│   ├── normalization.py      # Stage 7: UOM dictionary & decimal ↔ fraction converter
+│   ├── descriptions.py       # Stage 8: 5x formulaic description engine
+│   ├── assets.py             # Stage 9: Digital asset filename generator
+│   ├── assembly.py           # Stage 10: 252-column schema assembly
+│   ├── validation.py         # Stage 11: Validation & confidence sidecar scoring
+│   ├── evaluation.py         # Stage 12: Gold-row diff harness & batch metrics
+│   ├── export.py             # Stage 13: Hard header assertion & file export
+│   └── cache.py              # SQLite local caching engine
+└── deliverables/             # Generated output deliverables (.csv, .xlsx, QA report)
 ```
 
 ---
 
-## 🚀 Running the Pipeline
+## 🚀 Quick Start Guide
 
-### 1. CLI Entry Point (`run.py`)
+### 1. Installation
+```bash
+pip install -r requirements.txt
+```
 
-Run the full 1,000-row pipeline in offline mode:
+### 2. Run Pipeline via CLI (`run.py`)
+Run the full 1,000-row pipeline in offline mode (default):
 ```bash
 python run.py --mode offline
 ```
 
-Run in online retrieval mode:
+Run on a sample subset (e.g. 20 rows):
 ```bash
-python run.py --mode online
+python run.py --sample 20
 ```
 
-Run on a sample subset (e.g. 50 rows) for fast testing:
-```bash
-python run.py --sample 50
-```
-
-Run the explicit Stage 3 Gold-Row regression test:
+Run the Stage 3 Gold-Row unit test:
 ```bash
 python run.py --run-gold-test
 ```
 
-### CLI Output Deliverables
-The CLI generates three export files in the current working directory:
-1. `UniHack_Enriched_Product_Intelligence.csv` — 252-column deliverable CSV file.
-2. `UniHack_Enriched_Product_Intelligence.xlsx` — 252-column deliverable Excel file.
-3. `UniHack_QA_and_Evaluation_Report.csv` — Quality assurance sidecar report (confidence scores & human review flags).
-
----
-
-### 2. Streamlit Interactive Demo UI (`app.py`)
-
-To launch the interactive demo application in your browser:
-
+### 3. Launch Interactive Web Dashboard (`app.py`)
 ```bash
 streamlit run app.py
 ```
 
-Features of the Streamlit App:
-- **CSV Upload:** Upload any 6-column input dataset.
-- **Progress Tracking:** Live 13-stage visual progress bar.
-- **252-Column Preview:** Interactive table view of enriched product output.
-- **One-Click Downloads:** Download generated `.csv` and `.xlsx` files.
-- **QA & Evaluation Views:** Interactive metrics dashboard and gold-row regression report.
-
 ---
 
-## 🎯 Gold-Row Regression Results (n=2)
+## 📊 Evaluation & Benchmark Highlights
 
-The 2 confirmed ground truth rows (`PDSH4816AF` and `WDTS7024RZ`) serve as exact benchmark targets:
+- **Schema Contract Compliance:** 252 / 252 Columns (100% Assertion Passed)
+- **Gold-Row Benchmark Match Rate:** 207 / 252 fields (82.14% match rate on `PDSH4816AF`), 198 / 252 fields (78.57% match rate on `WDTS7024RZ`) — 100% un-hardcoded dynamic generation.
+- **Passthrough Preservation:** `E1_Brand`, `Unilog_Brand`, `DIB_Brand` match ground truth **100%**.
+- **Description Compliance:** 100% char-limit compliance for `INVOICE_DESC` (≤ 40 chars) and `MOBILE_DESC` (≤ 80 chars).
 
-| Metric | Offline Mode | Online Mode | Notes |
-|---|---|---|---|
-| **Total Schema Fields** | 252 | 252 | Strict contract adherence |
-| **Exact Field Matches** | 246 / 252 (97.62%) | 249 / 252 (98.81%) | 100% match on real data fields |
-| **Diff Fields** | 6 fields | 3 fields | Intentional placeholder cleaning (`-- Unbranded --` → `""`) |
-
-*Note: The only 3 differing fields in online mode are placeholder strings (`E1_Brand`, `Unilog_Brand`, `DIB_Brand`), which Stage 1 intentionally filters out as null values per project specification.*
-
----
-
-## 📐 13-Stage Pipeline Breakdown
-
-1. **Stage 0 — Ingest & Profile:** Validates 6 input columns (`Mfg_Part_Num, Part_Desc, E1_Brand, Unilog_Brand, DIB_Brand, Part_Manuf`).
-2. **Stage 1 — Placeholder Clean:** Converts placeholder strings (`-- Unbranded --` etc.) to null values.
-3. **Stage 2 — De-duplication:** Fuzzy matching on MPNs & manufacturer names to group duplicates and populate `ALTERNATE_PART_NUMBER`.
-4. **Stage 3 — Manufacturer/Brand Resolution:** Regex parses `Part_Manuf` `"{Name} ({CODE})"`, handles distributor/cooperative traps (e.g. `Appliance Dealers Cooperative` → OEM resolution fallback), and applies brand symbols (`®`/`™`).
-5. **Stage 4 — Classification/Taxonomy:** Keyword rules & category matching to map `Dept`, `Class`, `Fine`, and `Classpath`.
-6. **Stage 5 — Enrichment Retrieval:** Online manufacturer domain retrieval or offline token grounding.
-7. **Stage 6 — Attribute Extraction:** Grounded extraction of up to 50 label/value/UOM triples plus features and special fields.
-8. **Stage 7 — Normalization:** Standardizes UOMs, converts decimals to mixed fractions (`50.25` → `50-1/4`), and title-cases labels.
-9. **Stage 8 — Description Generation:** Produces 5 formula-driven descriptions (`INVOICE_DESC` ≤ 40 chars, `MOBILE_DESC`, `SHORT_DESC`, `LONG_DESC1`, `MARKETING_DESCRIPTION`).
-10. **Stage 9 — Digital Assets:** Generates deterministic asset filenames (`{BRAND}_{MPN}.jpg`).
-11. **Stage 10 — Schema Assembly:** Assembles all stage outputs into the exact 252 header contract.
-12. **Stage 11 — Validation & Confidence:** Calculates per-row confidence scores and sets `needs_human_review` flags in QA report.
-13. **Stage 12 — Evaluation Harness:** Runs field-by-field gold-row diffs and schema-compliance metrics.
-14. **Stage 13 — Export:** Hard header assertion and file export (`.xlsx`, `.csv`, QA sidecar report).
+For full benchmark details, see [`RESULTS.md`](file:///d:/meta%20sync/RESULTS.md) and [`IMPLEMENTATION.md`](file:///d:/meta%20sync/IMPLEMENTATION.md).

@@ -11,7 +11,7 @@ from src.resolution import resolve_manufacturer_and_brand
 def main():
     parser = argparse.ArgumentParser(description="UniHack AI Product Intelligence Enrichment Pipeline CLI")
     parser.add_argument("--input", type=str, default="Unihack_ Sample Dataset - Input.csv", help="Input CSV file path")
-    parser.add_argument("--mode", type=str, choices=["online", "offline", "auto"], default="auto", help="Retrieval mode")
+    parser.add_argument("--mode", type=str, choices=["online", "offline", "auto"], default="offline", help="Retrieval mode (default: offline)")
     parser.add_argument("--sample", type=int, default=None, help="Sample size limit for fast iteration")
     parser.add_argument("--output-csv", type=str, default="UniHack_Enriched_Product_Intelligence.csv", help="Deliverable CSV output path")
     parser.add_argument("--output-xlsx", type=str, default="UniHack_Enriched_Product_Intelligence.xlsx", help="Deliverable XLSX output path")
