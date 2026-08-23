@@ -1,0 +1,1001 @@
+row_index,Mfg_Part_Num,MANUFACTURER_NAME,BRAND_NAME,confidence_score,needs_human_review,review_reason,groundedness_score
+1,DCB518ASTS06G,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+2,3MABR-7100075678,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+3,3MABR-7100045865,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+4,3MABR-7100048736,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+5,3MABR-7100075690,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+6,3MABR-7100075692,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+7,3MABR-7100145365,Jam Industrial Supply LLC,Jam Industrial Supply LLC,1.0,False,Clean,1.0
+8,5B-332-080,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+9,5B-332-120,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+10,9A-570-240,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+11,9A-570-320,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+12,DBD090094101F,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+13,DBDS12125A01F,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+14,DBDS12125G01F,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+15,DBDS14125A01F,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+16,DBDS14125G01F,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+17,49-94-0013,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+18,49-94-0029,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+19,49-94-0033,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+20,49-94-0001,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+21,49-94-0039,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+22,49-94-0043,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+23,49-94-0048,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+24,49-94-0053,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+25,49-94-0058,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+26,49-94-0063,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+27,49-94-0068,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+28,49-94-0073,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+29,49-94-0101,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+30,49-94-0107,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+31,49-94-0117,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+32,49-94-0123,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+33,49-94-0023,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+34,49-94-0121,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+35,49-94-0127,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+36,49-94-0137,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+37,49-94-0160,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+38,49-94-0223,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+39,49-94-0445,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+40,49-94-0803,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+41,49-94-0903,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+42,49-94-0907,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+43,49-94-0923,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+44,49-94-1900,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+45,49-94-1905,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+46,49-94-1915,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+47,49-94-1920,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+48,49-94-1925,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+49,49-94-1935,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+50,49-94-1940,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+51,49-94-0501,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+52,49-94-0503,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+53,49-94-0523,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+54,49-94-1955,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+55,49-94-1965,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+56,49-94-0513,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+57,49-94-0533,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+58,DFBLBLOMFN01G,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+59,1700-1PK-BB40,3 M Co,3M®,1.0,False,Clean,1.0
+60,ASH-40-40-04,Emseal Joint Systems Ltd,Emseal Joint Systems Ltd,1.0,False,Clean,1.0
+61,KDFM404KPS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+62,PDSH4816AF,Rheem Manufacturing,FRIGIDAIRE®,1.0,False,Clean,1.0
+63,PDT715SYVFS,Rheem Manufacturing,FRIGIDAIRE®,1.0,False,Clean,1.0
+64,LDPH5554D,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+65,WDTS7024RZ,Whirlpool Corporation,Whirlpool®,1.0,False,Clean,1.0
+66,PDD415PYYFS,Rheem Manufacturing,FRIGIDAIRE®,1.0,False,Clean,1.0
+67,KDTS424SBE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+68,KDTS324SPS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+69,KDPS624SJP,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+70,KDTS624SBE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+71,D519127,V & V Appliance Parts Inc,V & V Appliance Parts Inc,1.0,False,Clean,1.0
+72,DF7004WE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+73,DR7004BE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+74,DV2000WE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+75,DC5004WE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+76,DC5004BE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+77,WKE100HWA,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+78,FF7011WN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+79,PTD70GBPTDG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+80,PTD70GBSTWS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+81,DR5004WG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+82,DR7004BG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+83,DR7004WG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+84,DV2000WG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+85,DC5004WG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+86,DC5004BG,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+87,PTW705BSTWS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+88,MVWP586GW,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+89,TV2000WN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+90,TC5003BN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+91,TR7006WN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+92,TR7006BN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+93,TR5006WN,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+94,05134545001,Wera Tools NA Inc,Wera Tools NA Inc,1.0,False,Clean,1.0
+95,LNL65301,,,0.75,True,Missing Manufacturer/Brand,1.0
+96,25-A,Rees Cast Stone Company,Rees Cast Stone Company,1.0,False,Clean,1.0
+97,38-E,Rees Cast Stone Company,Rees Cast Stone Company,1.0,False,Clean,1.0
+98,59-J,Rees Cast Stone Company,Rees Cast Stone Company,1.0,False,Clean,1.0
+99,44-A,Rees Cast Stone Company,Rees Cast Stone Company,1.0,False,Clean,1.0
+100,543302126,U S Lumber,TREX®,1.0,False,Clean,1.0
+101,543302146,U S Lumber,TREX®,1.0,False,Clean,1.0
+102,73019603,,,0.75,True,Missing Manufacturer/Brand,1.0
+103,73019652,,,0.75,True,Missing Manufacturer/Brand,1.0
+104,73019517,,,0.75,True,Missing Manufacturer/Brand,1.0
+105,73019602,,,0.75,True,Missing Manufacturer/Brand,1.0
+106,73019651,,,0.75,True,Missing Manufacturer/Brand,1.0
+107,73019516,,,0.75,True,Missing Manufacturer/Brand,1.0
+108,543300256,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+109,543300276,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+110,73045028,,,0.75,True,Missing Manufacturer/Brand,1.0
+111,73045031,,,0.75,True,Missing Manufacturer/Brand,1.0
+112,543340126,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+113,543340127,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+114,543340146,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+115,543340147,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+116,ADB15516CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+117,ADB15520CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+118,ADB15516EW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+119,ADB15520EW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+120,ADB15516MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+121,ADB15520MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+122,ADB15516WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+123,ADB15520WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+124,AGB15512CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+125,AGB15516CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+126,AGB15520CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+127,AGB15512EW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+128,AGB15516EW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+129,AGB15520EW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+130,AGB15512MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+131,AGB15516MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+132,AGB15520MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+133,AGB15512WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+134,AGB15516WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+135,AGB15520WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+136,ADB15516AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+137,ADB15520AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+138,ADB15516CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+139,ADB15520CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+140,ADB15516FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+141,ADB15520FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+142,AGB15512AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+143,AGB15516AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+144,AGB15520AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+145,AGB15512CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+146,AGB15516CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+147,AGB15520CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+148,AGB15512FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+149,AGB15516FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+150,AGB15520FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+151,ADCB15516BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+152,ADCB15520BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+153,ADCB15516SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+154,ADCB15520SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+155,AGB15512BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+156,AGB15516BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+157,AGB15520BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+158,AGB15512SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+159,AGB15516SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+160,AGB15520SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+161,543140016,U S Lumber,TREX®,1.0,False,Clean,1.0
+162,543140020,U S Lumber,TREX®,1.0,False,Clean,1.0
+163,543142016,U S Lumber,TREX®,1.0,False,Clean,1.0
+164,543142020,U S Lumber,TREX®,1.0,False,Clean,1.0
+165,543144016,U S Lumber,TREX®,1.0,False,Clean,1.0
+166,543144020,U S Lumber,TREX®,1.0,False,Clean,1.0
+167,543143016,U S Lumber,TREX®,1.0,False,Clean,1.0
+168,543143020,U S Lumber,TREX®,1.0,False,Clean,1.0
+169,543141016,U S Lumber,TREX®,1.0,False,Clean,1.0
+170,543141020,U S Lumber,TREX®,1.0,False,Clean,1.0
+171,543140412,U S Lumber,TREX®,1.0,False,Clean,1.0
+172,543140416,U S Lumber,TREX®,1.0,False,Clean,1.0
+173,543140420,U S Lumber,TREX®,1.0,False,Clean,1.0
+174,543142412,U S Lumber,TREX®,1.0,False,Clean,1.0
+175,543142416,U S Lumber,TREX®,1.0,False,Clean,1.0
+176,543142420,U S Lumber,TREX®,1.0,False,Clean,1.0
+177,543144412,U S Lumber,TREX®,1.0,False,Clean,1.0
+178,543144416,U S Lumber,TREX®,1.0,False,Clean,1.0
+179,543144420,U S Lumber,TREX®,1.0,False,Clean,1.0
+180,543143412,U S Lumber,TREX®,1.0,False,Clean,1.0
+181,543143416,U S Lumber,TREX®,1.0,False,Clean,1.0
+182,543143420,U S Lumber,TREX®,1.0,False,Clean,1.0
+183,543141412,U S Lumber,TREX®,1.0,False,Clean,1.0
+184,543141416,U S Lumber,TREX®,1.0,False,Clean,1.0
+185,543141420,U S Lumber,TREX®,1.0,False,Clean,1.0
+186,1513703,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+187,1513704,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+188,1513705,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+189,1513706,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+190,1513707,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+191,1513708,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+192,1513709,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+193,1513710,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+194,1513711,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+195,1513712,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+196,1513717,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+197,1513718,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+198,1513719,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+199,1513720,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+200,1513721,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+201,1513724,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+202,1513725,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+203,1513726,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+204,1513727,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+205,1513728,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+206,543076016,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+207,543076020,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+208,543076412,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+209,543076416,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+210,543076420,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+211,1516870,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+212,1516871,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+213,1516872,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+214,1516873,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+215,1516874,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+216,1516879,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+217,1516880,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+218,1516881,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+219,1516882,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+220,1516883,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+221,543005016,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+222,543005020,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+223,543005412,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+224,543005416,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+225,543005420,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+226,1516891,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+227,1516892,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+228,1516893,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+229,1516894,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+230,1516895,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+231,543007016,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+232,543007020,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+233,543007412,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+234,543007416,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+235,543007420,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+236,ADR5117512CS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+237,ADR5117512MH,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+238,ADR5117512WT,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+239,ADR5117512AW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+240,ADR5117512CG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+241,ADR5117512FW,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+242,1508395,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+243,1508396,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+244,ADCR5117512BS,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+245,ADCR5117512SG,Parksite,TIMBERTECH®,1.0,False,Clean,1.0
+246,543140908,U S Lumber,TREX®,1.0,False,Clean,1.0
+247,543142908,U S Lumber,TREX®,1.0,False,Clean,1.0
+248,543143908,U S Lumber,TREX®,1.0,False,Clean,1.0
+249,543140912,U S Lumber,TREX®,1.0,False,Clean,1.0
+250,543142912,U S Lumber,TREX®,1.0,False,Clean,1.0
+251,543143912,U S Lumber,TREX®,1.0,False,Clean,1.0
+252,1513715,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+253,1513716,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+254,1513722,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+255,1513723,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+256,1513729,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+257,1513730,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+258,543076916,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+259,1516876,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+260,543076936,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+261,1516878,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+262,1516884,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+263,1516885,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+264,543005916,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+265,1516902,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+266,543007916,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+267,543005936,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+268,1516905,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+269,543007936,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+270,543144908,U S Lumber,TREX®,1.0,False,Clean,1.0
+271,543141908,U S Lumber,TREX®,1.0,False,Clean,1.0
+272,543144912,U S Lumber,TREX®,1.0,False,Clean,1.0
+273,543141912,U S Lumber,TREX®,1.0,False,Clean,1.0
+274,1513713,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+275,1513714,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+276,73012503,,,0.75,True,Missing Manufacturer/Brand,1.0
+277,73018131,,,0.75,True,Missing Manufacturer/Brand,1.0
+278,73018091,,,0.75,True,Missing Manufacturer/Brand,1.0
+279,73018066,,,0.75,True,Missing Manufacturer/Brand,1.0
+280,73018076,,,0.75,True,Missing Manufacturer/Brand,1.0
+281,61109087,,,0.75,True,Missing Manufacturer/Brand,1.0
+282,73018731,,,0.75,True,Missing Manufacturer/Brand,1.0
+283,61109090,,,0.75,True,Missing Manufacturer/Brand,1.0
+284,73053603,,,0.75,True,Missing Manufacturer/Brand,1.0
+285,73053608,,,0.75,True,Missing Manufacturer/Brand,1.0
+286,543340896,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+287,543340898,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+288,73272TBK,Palmer Donavin Mfg Company,DSI Westbury,1.0,False,Clean,1.0
+289,543302127,U S Lumber,TREX®,1.0,False,Clean,1.0
+290,543302147,U S Lumber,TREX®,1.0,False,Clean,1.0
+291,73019599,,,0.75,True,Missing Manufacturer/Brand,1.0
+292,73019648,,,0.75,True,Missing Manufacturer/Brand,1.0
+293,73019598,,,0.75,True,Missing Manufacturer/Brand,1.0
+294,73019647,,,0.75,True,Missing Manufacturer/Brand,1.0
+295,543300257,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+296,543300277,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+297,SPB-44BPL,,,0.75,True,Missing Manufacturer/Brand,1.0
+298,925219,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+299,27233,A J Manufacturing Inc,AJM,1.0,False,Clean,1.0
+300,1517602,United Window & Door Manufacturing,United Window & Door,1.0,False,Clean,1.0
+301,1517603,United Window & Door Manufacturing,United Window & Door,1.0,False,Clean,1.0
+302,1517604,United Window & Door Manufacturing,United Window & Door,1.0,False,Clean,1.0
+303,1517605,United Window & Door Manufacturing,United Window & Door,1.0,False,Clean,1.0
+304,FS C01 2004S,Velux America Inc,Velux America Inc,1.0,False,Clean,1.0
+305,FS C04 2004S,Velux America Inc,Velux America Inc,1.0,False,Clean,1.0
+306,FS C06 2004S,Velux America Inc,Velux America Inc,1.0,False,Clean,1.0
+307,1501831,ProVia,PROVIA,1.0,False,Clean,1.0
+308,1501832,ProVia,PROVIA,1.0,False,Clean,1.0
+309,1515974,,United Window & Door,0.925,False,Clean,1.0
+310,640383,Certainteed Gypsum,Certainteed Gypsum,1.0,False,Clean,1.0
+311,653258,Certainteed Gypsum,Certainteed Gypsum,1.0,False,Clean,1.0
+312,413S-DBA-36,Hager Hinge Co,HAGER,1.0,False,Clean,1.0
+313,413S-DBA-72,Hager Hinge Co,HAGER,1.0,False,Clean,1.0
+314,1511506,Huber Eng Wood LLC,Huber Eng Wood LLC,1.0,False,Clean,1.0
+315,1513577,Westwood Lumber Sales,COMMODITY - UNBRANDED,1.0,False,Clean,1.0
+316,1513578,Westwood Lumber Sales,COMMODITY - UNBRANDED,1.0,False,Clean,1.0
+317,1513579,Westwood Lumber Sales,COMMODITY - UNBRANDED,1.0,False,Clean,1.0
+318,1513580,Westwood Lumber Sales,COMMODITY - UNBRANDED,1.0,False,Clean,1.0
+319,1501767,,,0.75,True,Missing Manufacturer/Brand,1.0
+320,PP-8BL,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+321,PP-10BL,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+322,PP-12BL,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+323,PP-8CH,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+324,PP-10CH,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+325,PP-12CH,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+326,PP-8WH,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+327,PP-10WH,Premier Metals,Premier Metals,1.0,False,Clean,1.0
+328,1504345,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+329,2733,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+330,7547,,,0.75,True,Missing Manufacturer/Brand,1.0
+331,8912220,Boise Cascade Building Materials,JAMESHARDIE,1.0,False,Clean,1.0
+332,8904015,Boise Cascade Building Materials,JAMESHARDIE,1.0,False,Clean,1.0
+333,25796,U S Lumber,LP SMARTSIDE,1.0,False,Clean,1.0
+334,40503,U S Lumber,LP SMARTSIDE,1.0,False,Clean,1.0
+335,25825,U S Lumber,LP SMARTSIDE,1.0,False,Clean,1.0
+336,25822,U S Lumber,LP SMARTSIDE,1.0,False,Clean,1.0
+337,543650101,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+338,543650010,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+339,543650048,Boise Cascade Building Materials,TREX®,1.0,False,Clean,1.0
+340,1506969,,,0.75,True,Missing Manufacturer/Brand,1.0
+341,1514681,,,0.75,True,Missing Manufacturer/Brand,1.0
+342,1514726,,,0.75,True,Missing Manufacturer/Brand,1.0
+343,1728ABL,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+344,402-R,MillerTech Energy Solutions,MillerTech Energy Solutions,1.0,False,Clean,1.0
+345,SL1672,,Schumacher,0.925,False,Clean,1.0
+346,BM-DW20-YLW-6,Metalmark Industrial Inc,StealthMounts,1.0,False,Clean,1.0
+347,BHA1-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+348,G1941-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+349,G1950-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+350,A410RCAR,Thomas & Betts,Carlon,1.0,False,Clean,1.0
+351,G1951-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+352,52C3-5/8-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+353,52C14-5/8-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+354,52C3-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+355,54151-F-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+356,54151-HUR-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+357,54151-JR-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+358,54171-R-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+359,52151-S-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+360,72171-3/4-1W-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+361,5522-5EV,Cooper Wiring Devices,Cooper Wiring Devices,1.0,False,Clean,1.0
+362,AYCL-153PH-LA,Fenton Bros Electric Inc,Fenton Bros Electric Inc,1.0,False,Clean,1.0
+363,AYCL-153PH-WH,Fenton Bros Electric Inc,Fenton Bros Electric Inc,1.0,False,Clean,1.0
+364,D23LP-R02-1RW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+365,TNOCD002,Prime Wire & Cable,Prime,1.0,False,Clean,1.0
+366,TNDHD002,Prime Wire & Cable,Prime,1.0,False,Clean,1.0
+367,TNIDP12,Prime Wire & Cable,Prime,1.0,False,Clean,1.0
+368,TNIW24,Prime Wire & Cable,Prime,1.0,False,Clean,1.0
+369,65-1222,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+370,65-1224,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+371,45297BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+372,45573BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+373,37418A,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+374,37423A,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+375,45496BKCLR,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+376,45973BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+377,55155BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+378,55157CPZ,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+379,55184BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+380,55185BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+381,55186CH,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+382,55210NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+383,55211BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+384,55211NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+385,55212NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+386,55226BKLFU,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+387,55239CPZLED,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+388,44072DBK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+389,44073NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+390,52033BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+391,84322WH,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+392,52404BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+393,34686A,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+394,34687A,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+395,34688A,,,0.75,True,Missing Manufacturer/Brand,1.0
+396,43671BKCLR,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+397,52616BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+398,52616NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+399,52678BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+400,52680CPZ,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+401,52772BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+402,82399,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+403,65-771R3,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+404,42955BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+405,42275BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+406,62-1850,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+407,62-1852,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+408,62-1875,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+409,62-1876,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+410,42296BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+411,43913BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+412,HLSMS9129FS1E,Cooper Lighting,Cooper Lighting,1.0,False,Clean,1.0
+413,64-110,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+414,603571,Phillips Lighting,Wiz,1.0,False,Clean,1.0
+415,65-572R1,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+416,52476AVI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+417,42199BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+418,42199BKCS,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+419,42200BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+420,42200BKCS,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+421,43851BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+422,43852BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+423,43853BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+424,43905BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+425,43911BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+426,52529BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+427,52662BKCLR,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+428,52734CPZ,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+429,82400,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+430,S11606,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+431,S11828,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+432,801274,Phillips Lighting,Philips,1.0,False,Clean,1.0
+433,S11860,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+434,S11562,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+435,S11646,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+436,S11801R1,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+437,S11848,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+438,S11849,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+439,HLBSL609FS5,Cooper Lighting,Cooper Lighting,1.0,False,Clean,1.0
+440,WF4REGSWW590CRIMW,Lithonia Lighting,Lithonia Lighting,1.0,False,Clean,1.0
+441,43849WH5CCT,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+442,62-1777,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+443,62-1778,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+444,62-1784,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+445,62-1787,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+446,62-1788,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+447,SHOP/4X2/840/V1,Feit Electric,Feit Electric,1.0,False,Clean,1.0
+448,45495BKCLR,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+449,55209NI,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+450,65-1210,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+451,65-1211,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+452,141465,Phillips Lighting,Philips,1.0,False,Clean,1.0
+453,391227,Phillips Lighting,Philips,1.0,False,Clean,1.0
+454,392225,Phillips Lighting,Philips,1.0,False,Clean,1.0
+455,S3539,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+456,S3496,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+457,467316,Phillips Lighting,Philips,1.0,False,Clean,1.0
+458,S3709,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+459,S4720,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+460,S3720,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+461,S3702,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+462,S3703,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+463,S3797,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+464,S4724,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+465,S4717,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+466,S3794,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+467,S3795,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+468,S4726,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+469,S11429,Satco Prod Inc,SATCO®,1.0,False,Clean,1.0
+470,S21354,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+471,S21363,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+472,S11445,Satco Prod Inc,Satco Prod Inc,1.0,False,Clean,1.0
+473,567313,Phillips Lighting,Philips,1.0,False,Clean,1.0
+474,586875,Phillips Lighting,Philips,1.0,False,Clean,1.0
+475,576355,Phillips Lighting,Philips,1.0,False,Clean,1.0
+476,576363,Phillips Lighting,Philips,1.0,False,Clean,1.0
+477,565374,Phillips Lighting,Philips,1.0,False,Clean,1.0
+478,565390,Phillips Lighting,Philips,1.0,False,Clean,1.0
+479,576371,Phillips Lighting,Philips,1.0,False,Clean,1.0
+480,576496,Phillips Lighting,Philips,1.0,False,Clean,1.0
+481,564856,Phillips Lighting,Philips,1.0,False,Clean,1.0
+482,565796,Phillips Lighting,Philips,1.0,False,Clean,1.0
+483,576389,Phillips Lighting,Philips,1.0,False,Clean,1.0
+484,564492,Phillips Lighting,Philips,1.0,False,Clean,1.0
+485,603449,Phillips Lighting,Wiz,1.0,False,Clean,1.0
+486,586909,Phillips Lighting,Philips,1.0,False,Clean,1.0
+487,566364,Phillips Lighting,Philips,1.0,False,Clean,1.0
+488,576397,Phillips Lighting,Philips,1.0,False,Clean,1.0
+489,571497,Phillips Lighting,Philips,1.0,False,Clean,1.0
+490,576306,Phillips Lighting,Philips,1.0,False,Clean,1.0
+491,588533,Phillips Lighting,Philips,1.0,False,Clean,1.0
+492,576520,Phillips Lighting,Philips,1.0,False,Clean,1.0
+493,574004,Phillips Lighting,Philips,1.0,False,Clean,1.0
+494,574012,Phillips Lighting,Philips,1.0,False,Clean,1.0
+495,573971,Phillips Lighting,Philips,1.0,False,Clean,1.0
+496,573989,Phillips Lighting,Philips,1.0,False,Clean,1.0
+497,576769,Phillips Lighting,Philips,1.0,False,Clean,1.0
+498,567446,Phillips Lighting,Philips,1.0,False,Clean,1.0
+499,573997,Phillips Lighting,Philips,1.0,False,Clean,1.0
+500,571463,Phillips Lighting,Philips,1.0,False,Clean,1.0
+501,576512,Phillips Lighting,Philips,1.0,False,Clean,1.0
+502,581181,Phillips Lighting,Philips,1.0,False,Clean,1.0
+503,GT-CB-100C,Keystone,GT-Lite,1.0,False,Clean,1.0
+504,566430,Phillips Lighting,Philips,1.0,False,Clean,1.0
+505,568337,Phillips Lighting,Philips,1.0,False,Clean,1.0
+506,565788,Phillips Lighting,Philips,1.0,False,Clean,1.0
+507,565770,Phillips Lighting,Philips,1.0,False,Clean,1.0
+508,573436,Phillips Lighting,Philips,1.0,False,Clean,1.0
+509,576538,Phillips Lighting,Philips,1.0,False,Clean,1.0
+510,573451,Phillips Lighting,Philips,1.0,False,Clean,1.0
+511,586883,Phillips Lighting,Philips,1.0,False,Clean,1.0
+512,586859,Phillips Lighting,Philips,1.0,False,Clean,1.0
+513,576488,Phillips Lighting,Philips,1.0,False,Clean,1.0
+514,575217,Phillips Lighting,Philips,1.0,False,Clean,1.0
+515,586479,Phillips Lighting,Philips,1.0,False,Clean,1.0
+516,571471,Phillips Lighting,Philips,1.0,False,Clean,1.0
+517,570762,Phillips Lighting,Philips,1.0,False,Clean,1.0
+518,533352,Phillips Lighting,Philips,1.0,False,Clean,1.0
+519,573519,Phillips Lighting,Philips,1.0,False,Clean,1.0
+520,573378,Phillips Lighting,Philips,1.0,False,Clean,1.0
+521,565622,Phillips Lighting,Philips,1.0,False,Clean,1.0
+522,586891,Phillips Lighting,Philips,1.0,False,Clean,1.0
+523,585448,Phillips Lighting,Philips,1.0,False,Clean,1.0
+524,573444,Phillips Lighting,Philips,1.0,False,Clean,1.0
+525,566687,Phillips Lighting,Philips,1.0,False,Clean,1.0
+526,564385,Phillips Lighting,Philips,1.0,False,Clean,1.0
+527,566661,Phillips Lighting,Philips,1.0,False,Clean,1.0
+528,564898,Phillips Lighting,Philips,1.0,False,Clean,1.0
+529,538319,Phillips Lighting,Philips,1.0,False,Clean,1.0
+530,576009,Phillips Lighting,Philips,1.0,False,Clean,1.0
+531,564450,Phillips Lighting,Philips,1.0,False,Clean,1.0
+532,572669,Phillips Lighting,Philips,1.0,False,Clean,1.0
+533,564906,Phillips Lighting,Philips,1.0,False,Clean,1.0
+534,573410,Phillips Lighting,Philips,1.0,False,Clean,1.0
+535,576504,Phillips Lighting,Philips,1.0,False,Clean,1.0
+536,576017,Phillips Lighting,Philips,1.0,False,Clean,1.0
+537,574392,Phillips Lighting,Philips,1.0,False,Clean,1.0
+538,576751,Phillips Lighting,Philips,1.0,False,Clean,1.0
+539,583161,Phillips Lighting,Philips,1.0,False,Clean,1.0
+540,566695,Phillips Lighting,Philips,1.0,False,Clean,1.0
+541,577007,Phillips Lighting,Philips,1.0,False,Clean,1.0
+542,566653,Phillips Lighting,Philips,1.0,False,Clean,1.0
+543,566679,Phillips Lighting,Philips,1.0,False,Clean,1.0
+544,573311,Phillips Lighting,Philips,1.0,False,Clean,1.0
+545,573394,Phillips Lighting,Philips,1.0,False,Clean,1.0
+546,573329,Phillips Lighting,Philips,1.0,False,Clean,1.0
+547,564930,Phillips Lighting,Philips,1.0,False,Clean,1.0
+548,565000,Phillips Lighting,Philips,1.0,False,Clean,1.0
+549,564922,Phillips Lighting,Philips,1.0,False,Clean,1.0
+550,573295,Phillips Lighting,Philips,1.0,False,Clean,1.0
+551,564914,Phillips Lighting,Philips,1.0,False,Clean,1.0
+552,573485,Phillips Lighting,Philips,1.0,False,Clean,1.0
+553,573337,Phillips Lighting,Philips,1.0,False,Clean,1.0
+554,544874,Phillips Lighting,Philips,1.0,False,Clean,1.0
+555,570846,Phillips Lighting,Philips,1.0,False,Clean,1.0
+556,565473,Phillips Lighting,Philips,1.0,False,Clean,1.0
+557,573402,Phillips Lighting,Philips,1.0,False,Clean,1.0
+558,573352,Phillips Lighting,Philips,1.0,False,Clean,1.0
+559,573428,Phillips Lighting,Philips,1.0,False,Clean,1.0
+560,573386,Phillips Lighting,Philips,1.0,False,Clean,1.0
+561,564948,Phillips Lighting,Philips,1.0,False,Clean,1.0
+562,573303,Phillips Lighting,Philips,1.0,False,Clean,1.0
+563,573188,Phillips Lighting,Philips,1.0,False,Clean,1.0
+564,573469,Phillips Lighting,Philips,1.0,False,Clean,1.0
+565,565671,Phillips Lighting,Philips,1.0,False,Clean,1.0
+566,573204,Phillips Lighting,Philips,1.0,False,Clean,1.0
+567,581199,Phillips Lighting,Philips,1.0,False,Clean,1.0
+568,565887,Phillips Lighting,Philips,1.0,False,Clean,1.0
+569,586867,Phillips Lighting,Philips,1.0,False,Clean,1.0
+570,568451,Phillips Lighting,Philips,1.0,False,Clean,1.0
+571,568444,Phillips Lighting,Philips,1.0,False,Clean,1.0
+572,573196,Phillips Lighting,Philips,1.0,False,Clean,1.0
+573,564500,Phillips Lighting,Philips,1.0,False,Clean,1.0
+574,571513,Phillips Lighting,Philips,1.0,False,Clean,1.0
+575,588566,Phillips Lighting,Philips,1.0,False,Clean,1.0
+576,565655,Phillips Lighting,Philips,1.0,False,Clean,1.0
+577,565812,Phillips Lighting,Philips,1.0,False,Clean,1.0
+578,586917,Phillips Lighting,Philips,1.0,False,Clean,1.0
+579,46719,Maxsa Innovations,Maxsa Innovations,1.0,False,Clean,1.0
+580,59061BSL,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+581,59062BSL,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+582,59124BKT,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+583,59025BK,Kichler Lighting,Kichler Lighting,1.0,False,Clean,1.0
+584,DCL183,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+585,73020,Streamlight,Streamlight,1.0,False,Clean,1.0
+586,NEB-FLT-1021,ACG Brands,ACG Brands,1.0,False,Clean,1.0
+587,NEB-FLT-0053,ACG Brands,ACG Brands,1.0,False,Clean,1.0
+588,97708,Police Security,Police Security,1.0,False,Clean,1.0
+589,WORK6000XLTPPLUG,Feit Electric,Feit Electric,1.0,False,Clean,1.0
+590,HOM2040M200PRB,Square D Con Prod Dv,Square D Con Prod Dv,1.0,False,Clean,1.0
+591,HOM3060L225PGC,Square D Con Prod Dv,Square D,1.0,False,Clean,1.0
+592,QO612L100RBCP,Square D Con Prod Dv,Square D,1.0,False,Clean,1.0
+593,13093005,Southwire/g Turner,Southwire/g Turner,1.0,False,Clean,1.0
+594,12-4 SO,,,0.75,True,Missing Manufacturer/Brand,1.0
+595,96263-46-06,Woods Wire Southwire,Woods Wire Southwire,1.0,False,Clean,1.0
+596,R50003-ID,Southwire/g Turner,Southwire/g Turner,1.0,False,Clean,1.0
+597,10-4 SO,Southwire/g Turner,Southwire/g Turner,1.0,False,Clean,1.0
+598,23346-0408,,,0.75,True,Missing Manufacturer/Brand,1.0
+599,2/2/4 UD ALUM,Southwire/g Turner,Southwire/g Turner,1.0,False,Clean,1.0
+600,55418901,Southwire/g Turner,Southwire/g Turner,1.0,False,Clean,1.0
+601,CG50K,Fenton Bros Electric Inc,Fenton Bros Electric Inc,1.0,False,Clean,1.0
+602,R02-D215P-1RW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+603,PBUC013,Prime Wire & Cable,Prime,1.0,False,Clean,1.0
+604,R00-GFNT1-00K,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+605,R92-GFWT1-0KW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+606,R12-AGTR1-0KW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+607,R62-GFTA1-0KW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+608,165-04729-00C,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+609,161-04720-00C,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+610,R02-GUAC1-0BW,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+611,R56-CBR15-00T,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+612,R20-05378-P00,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+613,WC1V12W-SG-UPC,Southwire/g Turner,Southwire,1.0,False,Clean,1.0
+614,R51-GSRA1-THD,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+615,R62-CBR15-00W,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+616,S03-05226-IS,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+617,174-0CSB3-15W,Leviton Mfg Co,Leviton Mfg Co,1.0,False,Clean,1.0
+618,R50-0SL13-000,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+619,R52-0PJ13-00W,Leviton Mfg Co,LEVITON®,1.0,False,Clean,1.0
+620,XOU2470BCGS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+621,XOU24BCGSR,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+622,XOU24WDZGBR,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+623,C7CDAAS3PD3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+624,C7CDAAS4PW3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+625,C7CDABS2RS3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+626,C7CDABS3RD3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+627,C7CDABS4RW3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+628,C7CEBBS2RS3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+629,C7CEBBS4RW3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+630,C7CESAS2RS3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+631,C7CESAS3RD3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+632,C7CESAS4RW3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+633,WOSP30100SS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+634,MSER2090S,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+635,GCST16S1WSS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+636,PCWK15C1WSS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+637,SMC2266KS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+638,SMD2479JS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+639,PEP9030DTBB,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+640,CES700P3MD1,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+641,PS960YPFS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+642,PB900YVFS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+643,PCFE3080AF,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+644,SLER30524SS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+645,LSEL6333ZE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+646,KSES530SBE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+647,GCFG3661AF,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+648,WSGS7530RZ,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+649,CHP90301TBB,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+650,CVM517P3RD1,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+651,PMOS1980AF,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+652,WMMS3330RZ,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+653,KMMF530PBE,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+654,JXGRILL1,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+655,C9TMA2S3PD3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+656,C9TMA2S4PW3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+657,C90AAAS2RS3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+658,C9TMA2SP2PS3,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+659,GDE21EMKES,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+660,FCM16SLWW,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+661,GNE27JYMFS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+662,CVE28DP3ND1,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+663,GNE25JMKES,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+664,PRFS2883AF,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+665,PAD28BYTFS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+666,PGE29BYTFS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+667,ERFD19CGCS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+668,LT18S2100W,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+669,LT18S2100SS,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+670,EUF17CDBW,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+671,EUF21CDBW,Appliance Dealers Cooperative,Appliance Dealers Cooperative,1.0,False,Clean,1.0
+672,TP-1935,,,0.75,True,Missing Manufacturer/Brand,1.0
+673,K527APBXR,Senco Products Inc,Senco Products Inc,1.0,False,Clean,1.0
+674,603150,National Nail Corp,National Nail Corp,1.0,False,Clean,1.0
+675,d10cnk,Prebena,Prebena,1.0,False,Clean,1.0
+676,e28cnkha,Prebena,Prebena,1.0,False,Clean,1.0
+677,51334,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+678,59210,Hunter Fan Co,Hunter,1.0,False,Clean,1.0
+679,52485,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+680,52486,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+681,52487,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+682,52488,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+683,52655,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+684,59261,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+685,51731,Hunter Fan Co,Hunter Fan Co,1.0,False,Clean,1.0
+686,XLC10ZW,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+687,HS-DA,Sabre,Sabre,1.0,False,Clean,1.0
+688,73002252,,,0.75,True,Missing Manufacturer/Brand,1.0
+689,48-22-8396R,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+690,48-22-8397R,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+691,DCGG581B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+692,DCGG581GD1,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+693,DWST41092,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+694,156436WHT,Palmer Donavin Mfg Company,DSI Westbury,1.0,False,Clean,1.0
+695,173950TBK,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+696,173951TBK,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+697,173952TBK,Palmer Donavin Mfg Company,Palmer Donavin Mfg Company,1.0,False,Clean,1.0
+698,1624157,,ANDERSEN,0.925,False,Clean,1.0
+699,40025,Marshalltown Trowel,Marshalltown Trowel,1.0,False,Clean,1.0
+700,48-22-3301,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+701,48-22-3302,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+702,48-22-3303,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+703,TSDKAP218-G2,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+704,XPAP418,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+705,XDAP419,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+706,XB11PCVS,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+707,KB121VS,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+708,KB126VS,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+709,TC121VS,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+710,TC126VS,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+711,MK113MPAP,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+712,LS117MPAP,Edge Eyewear Inc,Edge Eyewear Inc,1.0,False,Clean,1.0
+713,FE-EFX-6L,Ohio Firewatch Protection Inc,Ohio Firewatch Protection Inc,1.0,False,Clean,1.0
+714,FE-EFX-9L,Ohio Firewatch Protection Inc,Ohio Firewatch Protection Inc,1.0,False,Clean,1.0
+715,1046793,First Alert - B R K Brands,First Alert,1.0,False,Clean,1.0
+716,1046870,First Alert - B R K Brands,BRK,1.0,False,Clean,1.0
+717,M701B-21L,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+718,M701B-21M,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+719,M701B-21S,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+720,M701B-21XL,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+721,MWUG42010124,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+722,MWUG42010224,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+723,MWUG42010324,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+724,MWUG42010424,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+725,MWUG42010524,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+726,MWUG42010624,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+727,MWUG36010225,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+728,MWUG36010325,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+729,MWUG36010425,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+730,MWUG36010525,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+731,MWUG36010625,Tech Gear 5.7 Inc,Tech Gear 5.7 Inc,1.0,False,Clean,1.0
+732,DPG15,Radians,Radians,1.0,False,Clean,1.0
+733,F200B-21L,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+734,F200B-21M,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+735,M200B-21L,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+736,M200B-21M,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+737,M200B-21XL,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+738,M200G-21L,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+739,M200G-21M,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+740,M200G-21XL,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+741,48-11-2330,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+742,DCBP250C,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+743,5328,,,0.75,True,Missing Manufacturer/Brand,1.0
+744,3200-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+745,3202-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+746,3203-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+747,BC-12300,Woodpeckers Inc,Woodpeckers Inc,1.0,False,Clean,1.0
+748,BC-24600,Woodpeckers Inc,Woodpeckers Inc,1.0,False,Clean,1.0
+749,DW08302CG,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+750,GCL165-42GL,Robt Bosch Tool Corp,Robt Bosch Tool Corp,1.0,False,Clean,1.0
+751,DW08802CG,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+752,DW088CG,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+753,DW089CG,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+754,DCLE34520GB,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+755,DCLE34031B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+756,DW0822CG,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+757,25459,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+758,35459,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+759,25759,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+760,35112,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+761,35115,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+762,25168,U S Tape Company,CENTURY COMPONENTS,1.0,False,Clean,1.0
+763,35468,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+764,35494,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+765,MLSQ0120,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+766,MLSQ1120,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+767,55227,Amana Tool Corp,Amana Tool Corp,1.0,False,Clean,1.0
+768,37300952,,,0.75,True,Missing Manufacturer/Brand,1.0
+769,6008,Whiteside Machine & Repair Co,Whiteside Machine & Repair Co,1.0,False,Clean,1.0
+770,6009,Whiteside Machine & Repair Co,Whiteside Machine & Repair Co,1.0,False,Clean,1.0
+771,3000A,Whiteside Machine & Repair Co,Whiteside Machine & Repair Co,1.0,False,Clean,1.0
+772,MID6630201US,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+773,DCF6202,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+774,25468,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+775,25762,U S Tape Company,U S Tape Company,1.0,False,Clean,1.0
+776,21839NN,,Nicholson,0.925,False,Clean,1.0
+777,VN56920,Marshalltown Trowel,Marshalltown Trowel,1.0,False,Clean,1.0
+778,133164,Wera Tools NA Inc,Wera Tools NA Inc,1.0,False,Clean,1.0
+779,DWHT10993,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+780,DWHT10994,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+781,QB22RU,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+782,QB22KU,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+783,AVM6EV,Malco Prod,Malco Prod,1.0,False,Clean,1.0
+784,AVM6EV,Malco Prod,Malco Prod,1.0,False,Clean,1.0
+785,DSA0250B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+786,DSA0375B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+787,DSA0500B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+788,42-04-9107,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+789,48-22-9491,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+790,DWMT45422,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+791,DWMT45424,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+792,48-22-9483,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+793,48-22-9484,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+794,48-22-9485,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+795,48-44-2770,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+796,IWHT48441RC,Irwin Industrial Tools,Irwin,1.0,False,Clean,1.0
+797,XRU23SM1,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+798,XRU15PT1,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+799,XRU23Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+800,0887-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+801,DCBL724B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+802,2954-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+803,2955-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+804,9A-219-180,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+805,9A-219-120RP,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+806,3033-20,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+807,3033-21,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+808,3034-20,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+809,D25333K,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+810,DCD803B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+811,DCF860B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+812,3401-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+813,KPTDR050A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+814,DCD1007B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+815,DCD799B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+816,58006,King Canada Inc,King Canada Inc,1.0,False,Clean,1.0
+817,2909-20,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+818,2909-21,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+819,918200,National Nail Corp,National Nail Corp,1.0,False,Clean,1.0
+820,2541-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+821,DCN930B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+822,DCN930P1,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+823,XNB04Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+824,XNB05Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+825,XNB06Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+826,XNB07Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+827,DZN930,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+828,220USB25U,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+829,XRF03Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+830,220USBP5U,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+831,49-66-4567,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+832,IBMG90K003,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+833,IBPH250P15T,Vessel Tools USA Inc,Vessel Tools USA Inc,1.0,False,Clean,1.0
+834,DPH12B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+835,DPH135B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+836,DPH21B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+837,DPH22B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+838,DPH235B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+839,DPH26B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+840,DPH2R1B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+841,DPH31B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+842,DPH32B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+843,DPH335B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+844,DSQ12B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+845,DSQ22B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+846,DSQ26B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+847,DSQ32B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+848,DT102B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+849,DT152B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+850,DT1535B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+851,DT202B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+852,DT2035B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+853,DT206B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+854,DT252B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+855,DT2535B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+856,DT256B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+857,DT302B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+858,DT402B,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+859,DDWSSB,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+860,191V02-0,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+861,XTS02Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+862,DCF809D1,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+863,2761-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+864,2761-22,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+865,3450-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+866,KPTDV025A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+867,3048-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+868,3049-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+869,2563-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+870,DCF961B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+871,DCF964B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+872,2563P-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+873,DCF921P2,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+874,XLT03Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+875,XLT04Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+876,XLT05Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+877,DCF510B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+878,3052-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+879,3054-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+880,DCF513EB,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+881,XVP01Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+882,DCM200B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+883,DCG410B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+884,DCG460B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+885,DCG402B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+886,3485-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+887,DCG420B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+888,DCG422B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+889,924422,,,0.75,True,Missing Manufacturer/Brand,1.0
+890,DCW620B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+891,2535-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+892,2837-20,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+893,577728,Festool USA,Festool USA,1.0,False,Clean,1.0
+894,577738,Festool USA,Festool USA,1.0,False,Clean,1.0
+895,KPTRS500A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+896,24-35M-320,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+897,9A-129-120,Mirka Abrasives Inc,Mirka Abrasives Inc,1.0,False,Clean,1.0
+898,578800,Festool USA,Festool USA,1.0,False,Clean,1.0
+899,578801,Festool USA,Festool USA,1.0,False,Clean,1.0
+900,578802,Festool USA,Festool USA,1.0,False,Clean,1.0
+901,578808,Festool USA,Festool USA,1.0,False,Clean,1.0
+902,578809,Festool USA,Festool USA,1.0,False,Clean,1.0
+903,578810,Festool USA,Festool USA,1.0,False,Clean,1.0
+904,578811,Festool USA,Festool USA,1.0,False,Clean,1.0
+905,578192,Festool USA,Festool USA,1.0,False,Clean,1.0
+906,578806,Festool USA,Festool USA,1.0,False,Clean,1.0
+907,D0860X,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+908,48-40-0740,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+909,48-41-0740,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+910,A-96095,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+911,D0760UX,Freud Inc,DIABLO®,1.0,False,Clean,1.0
+912,230.312.08,CMT USA Inc,CMT USA Inc,1.0,False,Clean,1.0
+913,D0708LF,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+914,D1012LF,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+915,D1216LF,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+916,DWA47421,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+917,DWA4769,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+918,49-93-9204,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+919,49-93-9207,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+920,49-93-9210,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+921,49-93-9202,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+922,49-93-9205,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+923,49-22-4702,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+924,DJT155HHM,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+925,790.82,CMT USA Inc,CMT USA Inc,1.0,False,Clean,1.0
+926,794.321,CMT USA Inc,CMT USA Inc,1.0,False,Clean,1.0
+927,49-22-5641,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+928,D0604TSH,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+929,D0620TSR,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+930,D0648TSF,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+931,D0652TSL,Freud Inc,Freud Inc,1.0,False,Clean,1.0
+932,JT1-549,JPW Industries,JPW Industries,1.0,False,Clean,1.0
+933,JT1-1371,JPW Industries,JPW Industries,1.0,False,Clean,1.0
+934,JT9-714400K,JPW Industries,JPW Industries,1.0,False,Clean,1.0
+935,2834-21HD,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+936,DCS383B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+937,DCS590B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+938,KPTCS725A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+939,KPTCS450A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+940,2545-20,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+941,KPTJS100A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+942,DCS714B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+943,DCS785B,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+944,GSL02M1,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+945,DW7029,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+946,DCS384B,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+947,XRJ08Z,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+948,G0771Z,Woodstock Intl,Woodstock Intl,1.0,False,Clean,1.0
+949,TS1017,Robt Bosch Tool Corp,Robt Bosch Tool Corp,1.0,False,Clean,1.0
+950,XT524,Bow Products,Bow Products,1.0,False,Clean,1.0
+951,XT536,Bow Products,Bow Products,1.0,False,Clean,1.0
+952,XT546,Bow Products,Bow Products,1.0,False,Clean,1.0
+953,XTP235,Bow Products,Bow Products,1.0,False,Clean,1.0
+954,TGP2-FA,Saw Stop LLC,Saw Stop LLC,1.0,False,Clean,1.0
+955,ATGI-FA,Saw Stop LLC,Saw Stop LLC,1.0,False,Clean,1.0
+956,ATGP-FA,Saw Stop LLC,Saw Stop LLC,1.0,False,Clean,1.0
+957,TGI2-FA,Saw Stop LLC,Saw Stop LLC,1.0,False,Clean,1.0
+958,TGI2-T36A,Saw Stop LLC,Saw Stop LLC,1.0,False,Clean,1.0
+959,KPTBPS100A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+960,DCB606C,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+961,BL1850BDC1,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+962,DCB205C,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+963,DCB2108,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+964,DCB2108-2,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+965,VB0212,Senco Products Inc,Senco Products Inc,1.0,False,Clean,1.0
+966,BCB2A20A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+967,BATT4A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+968,BATT2A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+969,BL1850BDC2X1,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+970,48-11-2422,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+971,DCB1104,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+972,48-59-1804,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+973,CRGR401A,Kreg Tool Company,Kreg Tool Company,1.0,False,Clean,1.0
+974,48-59-1211,Milwaukee Accessory,MILWAUKEE®,1.0,False,Clean,1.0
+975,2847-20,Milwaukee Accessory,Milwaukee Accessory,1.0,False,Clean,1.0
+976,DWV9401,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+977,578512,Festool USA,Festool USA,1.0,False,Clean,1.0
+978,577871,Festool USA,Festool USA,1.0,False,Clean,1.0
+979,577874,Festool USA,Festool USA,1.0,False,Clean,1.0
+980,577876,Festool USA,Festool USA,1.0,False,Clean,1.0
+981,578441,Festool USA,Festool USA,1.0,False,Clean,1.0
+982,DCK225D2,Black & Decker/dewlt,DEWALT®,1.0,False,Clean,1.0
+983,DCK2101QQ2,Black & Decker/dewlt,Black & Decker/dewlt,1.0,False,Clean,1.0
+984,4000-2/32,Robt Bosch Tool Corp,Dremel,1.0,False,Clean,1.0
+985,3100-1/15,Robt Bosch Tool Corp,Dremel,1.0,False,Clean,1.0
+986,T-90043,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+987,T-90059,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+988,T-90065,Makita Usa Inc,Makita Usa Inc,1.0,False,Clean,1.0
+989,10047VS,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+990,MAG:2044-230-1,J&G Machinery,J&G Machinery,1.0,False,Clean,1.0
+991,XTP242,Bow Products,Bow Products,1.0,False,Clean,1.0
+992,AAS-P,Woodpeckers Inc,Woodpeckers Inc,1.0,False,Clean,1.0
+993,SSCMS,Woodpeckers Inc,Woodpeckers Inc,1.0,False,Clean,1.0
+994,4225.201,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+995,KC-426C,King Canada Inc,King Canada Inc,1.0,False,Clean,1.0
+996,10045.201,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+997,10014.201,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+998,4430.201,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+999,10055.201,Oliver Machinery Company,Oliver Machinery Company,1.0,False,Clean,1.0
+1000,T27417,Woodstock Intl,Woodstock Intl,1.0,False,Clean,1.0
